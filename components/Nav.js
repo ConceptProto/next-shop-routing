@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Column, Row, Link, H1, Search, CartButton } from './index';
+import { Container, Column, Row, H1, Search, CartButton } from './index';
 
 export const Nav = props => (
   <div>
