@@ -2,7 +2,6 @@ import Column from './Column';
 import Container from './Container'
 import Layout from './Layout'
 import Row from './Row';
-import Link from './Link';
 import Nav from './Nav';
 import H1 from './H1';
 import H3 from './H3';
@@ -14,7 +13,6 @@ export {
   Container,
   Layout,
   Row,
-  Link,
   Nav,
   H1,
   H3,

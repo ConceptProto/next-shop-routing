@@ -11,12 +11,12 @@ export const Nav = props => (
           </Column>
           <Column>
             <Row justifyContent="flex-end">
-              <Column width="60px">
-                <Link href="#">Sign up</Link>
+              {/* <Column width="60px">
+                <Link href="/">Home</Link>
               </Column>
               <Column width="60px">
-                <span>Log in</span>
-              </Column>
+                <Link href="/about">About</Link>
+              </Column> */}
             </Row>
           </Column>
         </Row>
