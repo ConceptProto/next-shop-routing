@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Container, Column, Row, H1, Search, CartButton } from './index';
 
 export const Nav = props => (
@@ -11,12 +12,12 @@ export const Nav = props => (
           </Column>
           <Column>
             <Row justifyContent="flex-end">
-              {/* <Column width="60px">
+              <Column width="60px">
                 <Link href="/">Home</Link>
               </Column>
               <Column width="60px">
-                <Link href="/about">About</Link>
-              </Column> */}
+                <Link prefetch href="/about">About</Link>
+              </Column>
             </Row>
           </Column>
         </Row>

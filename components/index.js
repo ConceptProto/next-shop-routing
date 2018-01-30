@@ -7,6 +7,8 @@ import H1 from './H1';
 import H3 from './H3';
 import Search from './Search';
 import CartButton from './CartButton';
+import ProductList from './ProductList';
+import Product from './Product';
 
 export {
   Column,
@@ -17,5 +19,7 @@ export {
   H1,
   H3,
   Search,
-  CartButton
+  CartButton,
+  ProductList,
+  Product
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Search = props => (
-  <div>
+  <form action="/search">
     <div className="search">
       <span>
         <svg width="20px" height="20px" viewBox="0 0 25 25">
@@ -14,7 +14,12 @@ export const Search = props => (
           </g>
         </svg>
       </span>
-      <input type="text" placeholder="Search" {...props} />
+      <input
+        type="text"
+        name="q"
+        placeholder="Search"
+        {...props}
+      />
     </div>
     <style jsx>{`
       .search {
@@ -33,7 +38,7 @@ export const Search = props => (
         border-radius: 4px;
       }
       input:focus {
-        border: 1px solid #6364D8;
+        border: 1px solid #6364d8;
         outline: 0;
       }
       span {
@@ -45,7 +50,7 @@ export const Search = props => (
         position: relative;
       }
     `}</style>
-  </div>
+  </form>
 );
 
 export default Search;
