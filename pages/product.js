@@ -2,6 +2,7 @@
 import React from 'react';
 import Head from 'next/head';
 
+
 import products from '../services/data';
 
 import {
@@ -16,7 +17,7 @@ import {
   Product
 } from '../components';
 
-class Index extends React.Component {
+class Product extends React.Component {
 
   render() {
     return (
@@ -41,4 +42,4 @@ class Index extends React.Component {
     );
   }
 }
-export default Index;
+export default Product;

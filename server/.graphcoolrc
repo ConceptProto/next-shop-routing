@@ -1,0 +1,3 @@
+targets:
+  dev: shared-eu-west-1/cjde21h6f0mni0111sn9xvnil
+  default: dev

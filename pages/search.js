@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Head from 'next/head';
+import withData from '../lib/withData';
 
 import {
   Container,
@@ -14,7 +15,7 @@ import {
   ProductList
 } from '../components';
 
-class Index extends React.Component {
+class Search extends React.Component {
 
   render() {
     return (
@@ -39,4 +40,4 @@ class Index extends React.Component {
     );
   }
 }
-export default Index;
+export default withData(Search);

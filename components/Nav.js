@@ -2,6 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import { Container, Column, Row, H1, Search, CartButton } from './index';
 
+import Auth from '../services/Auth';
+
+const auth = new Auth();
+
 export const Nav = props => (
   <div>
     <nav {...props}>
@@ -17,6 +21,9 @@ export const Nav = props => (
               </Column>
               <Column width="60px">
                 <Link prefetch href="/about">About</Link>
+              </Column>
+              <Column width="60px">
+                <span onClick={() => auth.login()}>Log in</span>
               </Column>
             </Row>
           </Column>
