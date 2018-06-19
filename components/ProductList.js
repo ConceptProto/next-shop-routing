@@ -4,7 +4,7 @@ import productsToRender from '../services/data';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
 
-import Product from './Product';
+import ProductComponent from './Product';
 import Row from './Row';
 
 export const ProductList = props => {
@@ -20,7 +20,7 @@ export const ProductList = props => {
   return (
     <div>
       {products && products.length ? (
-        <Row>{products.map(product => <Product product={product} />)}</Row>
+        <Row>{products.map(product => <ProductComponent product={product} />)}</Row>
       ) : (
         <p>No product matched your search. Try again</p>
       )}
