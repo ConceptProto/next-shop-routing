@@ -14,7 +14,7 @@ import {
   Nav,
   H1,
   H3,
-  Product
+  ProductComponent
 } from '../components';
 
 class Product extends React.Component {
@@ -30,7 +30,7 @@ class Product extends React.Component {
         </Layout>
         <Container width="80%">
           <div className="items">
-            <Product product={products.find(product => product.id === Number(this.props.url.query.id))} />
+            <ProductComponent product={products.find(product => product.id === Number(this.props.url.query.id))} />
           </div>
         </Container>
         <style jsx>{`

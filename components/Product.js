@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import Column from './Column';
 
-export const Product = props => (
+export const ProductComponent = props => (
   <Column width="25%">
     <div className="product">
       <div className="img">
@@ -47,4 +47,4 @@ export const Product = props => (
   </Column>
 );
 
-export default Product;
+export default ProductComponent;

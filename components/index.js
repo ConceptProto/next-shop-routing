@@ -8,7 +8,7 @@ import H3 from './H3';
 import Search from './Search';
 import CartButton from './CartButton';
 import ProductList from './ProductList';
-import Product from './Product';
+import ProductComponent from './Product';
 
 export {
   Column,
@@ -21,5 +21,5 @@ export {
   Search,
   CartButton,
   ProductList,
-  Product
+  ProductComponent
 }
